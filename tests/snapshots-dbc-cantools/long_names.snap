@@ -37,38 +37,32 @@ nodes:
     - N12345678901234567890123456_0000
     - N1234567890123456789012345678901
     - N12345678901234567890123456_0001
-value_tables: []
 messages:
   - message_id:
       Standard: 9
     message_name: SS123456789012345678901234587890
     message_size: 8
     transmitter: VectorXXX
-    signals: []
   - message_id:
       Standard: 8
     message_name: SS1234567890123456789012345_0000
     message_size: 8
     transmitter: VectorXXX
-    signals: []
   - message_id:
       Standard: 7
     message_name: SS1234567890123456789012345_0001
     message_size: 8
     transmitter: VectorXXX
-    signals: []
   - message_id:
       Standard: 6
     message_name: SS123456789012345678901234577890
     message_size: 8
     transmitter: VectorXXX
-    signals: []
   - message_id:
       Standard: 5
     message_name: SS123456789012345678901234567890
     message_size: 8
     transmitter: VectorXXX
-    signals: []
   - message_id:
       Standard: 4
     message_name: S1234567890123456789012345678901
@@ -270,7 +264,6 @@ messages:
         unit: ""
         receivers:
           - Vector__XXX
-message_transmitters: []
 environment_variables:
   - env_var_name: E12345678901234567890123456_0000
     env_var_type: EnvTypeFloat
@@ -292,9 +285,6 @@ environment_variables:
     access_type: DummyNodeVector0
     access_nodes:
       - AccessNodeName: Vector__XXX
-environment_variable_data: []
-signal_types: []
-comments: []
 attribute_definitions:
   - Plain: "\"BusType\" STRING "
   - Signal: "\"SystemSignalLongSymbol\" STRING "
@@ -450,8 +440,6 @@ attribute_values:
       EnvVariableAttributeValue:
         - E12345678901234567890123456_0000
         - AttributeValueCharString: E12345678901234567890123456789012
-value_descriptions: []
-signal_type_refs: []
 signal_groups:
   - message_id:
       Standard: 3
@@ -460,5 +448,3 @@ signal_groups:
     signal_names:
       - SS1234567890123456789012345_0005
       - SSS123456789012345678901234_0000
-signal_extended_value_type_list: []
-extended_multiplex: []

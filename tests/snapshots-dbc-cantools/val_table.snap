@@ -46,7 +46,6 @@ value_tables:
       - a: 0
         b: "0"
   - value_table_name: Table2
-    value_descriptions: []
   - value_table_name: Table1
     value_descriptions:
       - a: 1
@@ -73,11 +72,6 @@ messages:
         unit: ""
         receivers:
           - Vector__XXX
-message_transmitters: []
-environment_variables: []
-environment_variable_data: []
-signal_types: []
-comments: []
 attribute_definitions:
   - Plain: "\"BusType\" STRING "
   - Message: "\"GenMsgCycleTime\" INT 0 65535"
@@ -88,7 +82,6 @@ attribute_defaults:
   - attribute_name: GenMsgCycleTime
     attribute_value:
       AttributeValueF64: 0
-attribute_values: []
 value_descriptions:
   - Signal:
       message_id:
@@ -99,7 +92,3 @@ value_descriptions:
           b: One
         - a: 0
           b: Zero
-signal_type_refs: []
-signal_groups: []
-signal_extended_value_type_list: []
-extended_multiplex: []

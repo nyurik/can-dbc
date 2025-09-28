@@ -34,7 +34,6 @@ new_symbols:
 bit_timing: []
 nodes:
   - []
-value_tables: []
 messages:
   - message_id:
       Extended: 1
@@ -110,11 +109,6 @@ messages:
         unit: ""
         receivers:
           - Vector__XXX
-message_transmitters: []
-environment_variables: []
-environment_variable_data: []
-signal_types: []
-comments: []
 attribute_definitions:
   - Signal: "\"SigType\" ENUM  \"Default\",\"Range\",\"RangeSigned\",\"ASCII\",\"Discrete\",\"Control\",\"ReferencePGN\",\"DTC\",\"StringDelimiter\",\"StringLength\",\"StringLengthControl\""
   - Signal: "\"GenSigEVName\" STRING "
@@ -255,10 +249,6 @@ attribute_values:
       MessageDefinitionAttributeValue:
         - Extended: 1
         - AttributeValueF64: 1
-value_descriptions: []
-signal_type_refs: []
-signal_groups: []
-signal_extended_value_type_list: []
 extended_multiplex:
   - message_id:
       Extended: 1

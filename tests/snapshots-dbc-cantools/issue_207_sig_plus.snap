@@ -34,7 +34,6 @@ new_symbols:
 bit_timing: []
 nodes:
   - []
-value_tables: []
 messages:
   - message_id:
       Standard: 1
@@ -68,20 +67,9 @@ messages:
         unit: ""
         receivers:
           - Vector__XXX
-message_transmitters: []
-environment_variables: []
-environment_variable_data: []
-signal_types: []
-comments: []
 attribute_definitions:
   - Plain: "\"BusType\" STRING "
 attribute_defaults:
   - attribute_name: BusType
     attribute_value:
       AttributeValueCharString: CAN
-attribute_values: []
-value_descriptions: []
-signal_type_refs: []
-signal_groups: []
-signal_extended_value_type_list: []
-extended_multiplex: []

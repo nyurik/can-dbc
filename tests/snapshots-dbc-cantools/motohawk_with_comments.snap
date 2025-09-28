@@ -35,7 +35,6 @@ bit_timing: []
 nodes:
   - - PCM1
     - FOO
-value_tables: []
 messages:
   - message_id:
       Standard: 496
@@ -84,10 +83,6 @@ messages:
         unit: "-"
         receivers:
           - Vector__XXX
-message_transmitters: []
-environment_variables: []
-environment_variable_data: []
-signal_types: []
 comments:
   - Message:
       message_id:
@@ -108,9 +103,6 @@ comments:
         Standard: 496
       signal_name: Enable
       comment: Enable signal comment
-attribute_definitions: []
-attribute_defaults: []
-attribute_values: []
 value_descriptions:
   - Signal:
       message_id:
@@ -121,7 +113,3 @@ value_descriptions:
           b: Disabled
         - a: 1
           b: Enabled
-signal_type_refs: []
-signal_groups: []
-signal_extended_value_type_list: []
-extended_multiplex: []
